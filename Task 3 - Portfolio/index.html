@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="small-text">Hello, I'm</p>
+            <h1>Chitransh Dehadraya</h1>
+            <h2>Frontend Developer & Data Science Student</h2>
+
+            <p>
+                I love creating websites, applications
+                and solving problems using technology.
+            </p>
+            <a href="#projects" class="btn">
+                View My Work
+            </a>
+
+        </div>
+    </section>
+    
+    
+    <!-- ABOUT -->
+<section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-box">
+            <div>
+                <h3>Who am I?</h3>
+                <p>
+                    I am a passionate student interested in
+                    programming, web development and data science.
+                    I enjoy learning new technologies and
+                    building useful projects.
+                </p>
+                <p>
+                    My goal is to continuously improve my
+                    technical skills and create innovative
+                    solutions.
+                </p>  
+            </div>
+        </div>
+    </section>
+
+
+    
+    <!-- SKILLS -->
+<section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <spam>HTML</spam>
+                <div class="progress">
+                    <div class="progress-bar html"></div>   
+                </div>
+            </div>
+
+            <div class="skill">
+                <spam>CSS</spam>
+                <div class="progress">
+                    <div class="progress-bar css"></div>   
+                </div>
+            </div>
+
+            <div class="skill">
+                <spam>JavaScript</spam>
+                <div class="progress">
+                    <div class="progress-bar js"></div>   
+                </div>
+            </div>
+
+            <div class="skill">
+                <spam>Python</spam>
+                <div class="progress">
+                    <div class="progress-bar python"></div>   
+                </div>
+            </div>
+            
+            <div class="skill">
+                <spam>SQL</spam>
+                <div class="progress">
+                    <div class="progress-bar sql"></div>   
+                </div>
+            </div>
+                
+        </div>  
+    </section>
+
+
+
+    <!-- PROJECTS -->
+
+<section id="projects" class="section">
+
+        <h2>My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+
+                <h3>Student Management System</h3>
+
+                <p>
+                    A web-based system for managing
+                    student information using PHP,
+                    MySQL, HTML and CSS.
+                </p>
+
+                <span>PHP • MySQL • HTML • CSS</span>
+
+            </div>
+
+            <div class="project-card">
+                <h3>Calculator</h3>
+                <p>
+                    A modern calculator built using
+                    HTML, CSS and JavaScript.
+                </p>
+
+                <span>HTML • CSS • JavaScript</span>
+
+            </div>
+             
+              <div class="project-card">
+
+                <h3>Data Analysis Project</h3>
+
+                <p>
+                    A data analysis project using
+                    Python and data visualization.
+                </p>
+
+                <span>Python • Pandas • Data Science</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+            
+
+
+
+  <!-- RESUME -->
+ <section class="resume">
+
+        <h2>My Resume</h2>
+
+        <p>
+            Interested in learning more about my
+            education and experience?
+        </p>
+
+        <a href="resume.pdf" target="_blank" class="resume-btn">
+    View My Resume
+    </a>
+
+    </section>
+
+    
+<!-- CONTACT -->
+
+<section id="contact" class="section">
+
+        <h2>Contact Me</h2>
+
+        <div class="contact-box">
+
+            <form onsubmit="sendMessage(event)">
+
+                <input
+                    type="text"
+                    placeholder="Chitransh Dehadraya"
+                    required
+                >
+
+                <input
+                    type="email"
+                    placeholder="chitranshdehadraya10@gmail.com"
+                    required
+                >
+                 <textarea
+                    placeholder="Your Message"
+                    required
+                ></textarea>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+        </div>
+    </section>  
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            © 2026 Chitransh Dehadraya | My Portfolio
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
